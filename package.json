@@ -1,0 +1,33 @@
+{
+  "name": "api-auth-jwt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/z1gonzo/node-api-auth-jwt.git"
+  },
+  "keywords": [
+    "node",
+    "jwt",
+    "api",
+    "authentication"
+  ],
+  "author": "z1gonzo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/z1gonzo/node-api-auth-jwt/issues"
+  },
+  "homepage": "https://github.com/z1gonzo/node-api-auth-jwt#readme",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
